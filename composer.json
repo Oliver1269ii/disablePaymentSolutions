@@ -1,0 +1,19 @@
+{
+    "name": "voksevaerket/disable-payment-solutions",
+    "description": "Disables certain payment solutions depending on a new product tag",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver1269",
+            "email": "olivermarcuslarsen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
