@@ -8,7 +8,7 @@ namespace Inc;
 final class Init {
     public static function get_services(){
         return [
-
+            admin\RegisterTaxonomies::class
         ];
     }
 
