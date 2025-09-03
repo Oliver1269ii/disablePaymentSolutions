@@ -4,6 +4,7 @@
  */
 /* 
 Plugin Name: Disable Payment Solutions
+Plugin URI: https://github.com/Oliver1269ii/disablePaymentSolutions
 Description: Disables certain payment solutions depending on a new product tag
 Version: 1.0.0
 Author: Oliver "Oliver1269" Larsen
@@ -28,6 +29,14 @@ use Inc\base\Deactivate;
 register_deactivation_hook( __FILE__, 'Deactivate');
 function Deactivate() {
     Deactivate::deactivate();
+}
+
+function frimannsGetPaymentSolutions() {
+    return [
+        "faktura" => "cod",
+        "kort" => "epay_dk",
+        "8days" => "reserve_link"
+    ];
 }
 
 if ( class_exists( 'Inc\\Init' ) ) {
