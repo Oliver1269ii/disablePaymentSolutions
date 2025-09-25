@@ -6,7 +6,7 @@
 Plugin Name: Disable Payment Solutions
 Plugin URI: https://github.com/Oliver1269ii/disablePaymentSolutions
 Description: Disables certain payment solutions depending on a new product tag
-Version: 1.0.0
+Version: 1.1.0
 Author: Oliver "Oliver1269" Larsen
 Author URI: https://github.com/Oliver1269ii
 License: GPL-3.0-or-later

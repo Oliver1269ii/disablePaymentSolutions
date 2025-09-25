@@ -38,13 +38,10 @@ class DisablePayment {
             return $available_gateways;
 
         } else {
-            error_log('gateways empty, using fallback');
-            error_log(print_r($paymentRules, true));
-            $key = array_search("transfer", $paymentRules, true);
+            $key = array_search("kort", $paymentRules, true);
             if ($key !== false) {
                 unset($paymentRules[$key]);
             }
-            error_log(print_r($paymentRules, true));
             foreach ($taxonomyRules as $tax => $gateway) {
                 if (in_array($tax, $paymentRules)) {
                     unset($available_gateways_fallback[$gateway]);
