@@ -3,7 +3,7 @@
  * @package disablePaymentSolutions
  */
 
-namespace Inc\admin;
+namespace DPS\admin;
 
 class RegisterTaxonomies {
     public static function register() {

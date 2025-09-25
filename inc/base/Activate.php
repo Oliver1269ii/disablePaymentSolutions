@@ -3,7 +3,7 @@
  * @package disablePaymentSolutions
  */
 
-namespace Inc\base;
+namespace DPS\base;
 
 class Activate {
     public static function activate() {

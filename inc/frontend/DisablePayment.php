@@ -2,7 +2,7 @@
 /**
  * @package disablePaymentSolutions
  */
-namespace Inc\frontend;
+namespace DPS\frontend;
 
 class DisablePayment {
     

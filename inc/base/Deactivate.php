@@ -3,7 +3,7 @@
  * @package disablePaymentSolutions
  */
 
-namespace Inc\base;
+namespace DPS\base;
 
 class Deactivate {
     public static function deactivate(){

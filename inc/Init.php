@@ -1,14 +1,16 @@
 <?php 
 /**
- * @package ExamplePlugin
+ * @package disablePaymentSolutions
  */
 
-namespace Inc;
+namespace DPS;
 
 final class Init {
     public static function get_services(){
         return [
             admin\RegisterTaxonomies::class,
+            admin\CustomProductSettings::class,
+            admin\SaveSettings::class,
             frontend\DisablePayment::class
         ];
     }

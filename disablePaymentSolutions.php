@@ -39,6 +39,6 @@ function frimannsGetPaymentSolutions() {
     ];
 }
 
-if ( class_exists( 'Inc\\Init' ) ) {
-	Inc\Init::register_services();
+if ( class_exists( 'DPS\\Init' ) ) {
+	DPS\Init::register_services();
 }
